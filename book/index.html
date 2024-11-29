@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="st.css">
+        <title>BOOKSHOW</title>
+    </head>
+    <body>
+        <div class="navbar">
+            <h1>Booksky</h1>
+        </div>
+        <div class="container">
+            <div class="book-con">
+                <h2>Small Towns,Big Stories</h2>
+                <h4>Ruskin Bond</h4><br>
+                <p>'Small Towns,Big Stories' is a collection of 21 short stories written by Ruskin Bond abd he is the most famous indian authors.Some of the stories in the collection are never
+                    published before,while some of them are the most cherished ones.The stories in this collection provide a smoothing effect and get a pleasant 
+                    feeling while reading the stories & even after reading them.
+                </p>
+                <button onclick="deletebook(event)">Delete</button>
+            </div>
+        </div>
+        <div class="pop"></div>
+        <div class="popup-box">
+            <h2>Add Book</h2>
+            <form>
+                <input type="text" placeholder="Book Title" id="title">
+                <input type="text" placeholder="Book author" id="author">
+                <textarea placeholder="short description" id="book-des"></textarea>
+                <button id="add-book">ADD</button>
+                <button id="cancel">CANCEL</button>
+            </form>
+        </div>
+        <button class="add" id="addbut">+</button>
+        <script src="index.js"></script>
+    </body>
+</html>
